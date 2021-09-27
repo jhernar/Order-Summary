@@ -5,9 +5,9 @@ Neutral
     *Very pale blue: hsl(225, 100%, 98%)
     *Desaturated blue: hsl(224, 23%, 55%)
     *Dark blue: hsl(223, 47%, 23%)  
-    
-    
     */
+
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 body {
   background-image: url(./images/pattern-background-desktop.svg);
@@ -34,9 +34,6 @@ p {
   font-weight: 500;
 }
 
-.hero {
-  width: 400px;
-}
 
 form {
   background: #fff;
@@ -44,6 +41,10 @@ form {
   padding: 10px 0;
   border-radius: 10px;
   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.hero {
+  width: 400px;
 }
 
 .card {
@@ -79,6 +80,7 @@ form .grupo {
 .btn-primary:active,
 .btn-primary:visited {
   background-color: #8064a2 !important;
+  border-color: #8064a2 !important;
 }
 
 .btn-danger,
@@ -87,4 +89,5 @@ form .grupo {
 .btn-danger:visited {
   background-color: #fff !important;
   color: #000 !important;
+  border-color: #fff !important;
 }
