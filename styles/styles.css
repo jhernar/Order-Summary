@@ -7,7 +7,8 @@ Neutral
     *Dark blue: hsl(223, 47%, 23%)  
     */
 
-    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
 
 body {
   background-image: url(./images/pattern-background-desktop.svg);
@@ -34,7 +35,6 @@ p {
   font-weight: 500;
 }
 
-
 form {
   background: #fff;
   width: 30%;
@@ -45,6 +45,7 @@ form {
 
 .hero {
   width: 400px;
+  border-radius: 10px;
 }
 
 .card {
@@ -63,31 +64,58 @@ form .grupo {
 }
 
 .summary img {
-    /* position: absolute; */
-    float: left;
+  /* position: absolute; */
+  float: left;
 }
 
-.summary h3, .summary p{
-}
-
-.summary a {
-    float: right;
+.summary h3,
+.summary p {
 }
 
 
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited {
-  background-color: #8064a2 !important;
-  border-color: #8064a2 !important;
+
+.buttons .button {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 17px;
+  cursor: pointer;
 }
 
-.btn-danger,
-.btn-danger:hover,
-.btn-danger:active,
-.btn-danger:visited {
-  background-color: #fff !important;
-  color: #000 !important;
-  border-color: #fff !important;
+.buttons .btn-continue {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  box-shadow: 0px 10px 12px hsl(225deg 100% 98%);
+  transition: 0.5s;
+}
+
+.btn-continue:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.buttons .btn-cancel {
+  background-color: transparent;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 15px;
+  transition: 0.5s;
+}
+
+.btn-cancel:hover {
+  color:hsl(223, 47%, 23%);
+}
+
+@media(max-width: 375px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-size: 100vh;
+    width: 20%;
+  }
+
+  .hero {
+    width: 100px;
+  }
 }

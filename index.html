@@ -7,55 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order summary</title>
 
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
-        rel="stylesheet" />
-
     <!-- CSS -->
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
 
 </head>
 
 <body>
-    <form action="">
-        <div class="card">
-            <img class="hero" src="/styles/images/illustration-hero.svg" alt="illustratiterminalon-hero">
+  
 
+        <form>
+            <div class="card">
+                <img class="hero" src="./styles/images/illustration-hero.svg" alt="illustratiterminalon-hero">
 
-            <div class="grupo description">
-                <h3>Order summary</h3>
-                <p>
-                    You can now listen to millions of songs audiobooks, and podcasts on
-                    any device anywhere you like
-                </p>
+                <div class="grupo description">
+                    <h3>Order summary</h3>
+                    <p>
+                        You can now listen to millions of songs audiobooks, and podcasts on
+                        any device anywhere you like
+                    </p>
+                </div>
+
+                <div class="grupo summary">
+                    <img src="./styles/images/icon-music.svg" alt="icon-music">
+                    <h3>Annual Plan</h3>
+                    <p>$59.99/year</p>
+                    <a href="#">Change</a>
+                </div>
+
+                <div class="buttons">
+                    <button class="button btn-continue">
+                        Procced to payment
+                    </button>
+
+                    <button class="button btn-cancel">
+                        Cancel order
+                    </button>
+
+                </div>
+
             </div>
-            <div class="grupo summary">
-                <img src="/styles/images/icon-music.svg" alt="icon-music">
-                <h3>Annual Plan</h3>
-                <p>$59.99/year</p>
-                <a href="/change">Change</a>
-
-            </div>
-
-            <div class="grupo procced">
-                <a href="/procced" class="btn btn-primary">Procced to Payment</a>
-            </div>
-
-            <div class="grupo cancel">
-                <a href="/cancel" class="btn btn-danger">Cancel order</a>
-
-            </div>
-
-        </div>
-    </form>
-
-
+        </form>
 </body>
 
 </html>
