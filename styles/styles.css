@@ -43,6 +43,7 @@ button {
   background-color: var(--pale-blue);
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
+  
 }
 
 .order-card {
@@ -135,10 +136,6 @@ button {
   text-decoration: underline;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a{ color: hsl(228, 45%, 44%) }
