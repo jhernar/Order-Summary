@@ -1,19 +1,17 @@
 :root {
-/*Colores primarios*/
---pale-blue: hsl(225, 100%, 94%);
---bright-blue: hsl(245, 75%, 52%);
+  /*Colores primarios*/
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
 
-/*Colores neutrales*/
---very-pale-blue: hsl(225, 100%, 98%);
---desaturated-blue: hsl(224, 23%, 55%);
---dark-blue: hsl(223, 47%, 23%);
---just-white: #ffffff;
+  /*Colores neutrales*/
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --just-white: #ffffff;
 
-/*Fuente*/
---red-hat-display: 'Red Hat Display', sans-serif;
-
+  /*Fuente*/
+  --red-hat-display: "Red Hat Display", sans-serif;
 }
-
 
 * {
   box-sizing: border-box;
@@ -43,6 +41,8 @@ button {
   width: 100vw;
   height: 100vh;
   background-color: var(--pale-blue);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
 }
 
 .order-card {
@@ -100,7 +100,7 @@ button {
 }
 
 .summary__detail span {
-color: var(--desaturated-blue);
+  color: var(--desaturated-blue);
 }
 
 .summary__change {
@@ -112,18 +112,18 @@ color: var(--desaturated-blue);
   background-color: var(--bright-blue);
   border-radius: 10px;
   color: var(--just-white);
-  box-shadow: 0px 10px 15px 0px rgba(199,199,199,1);
-  -webkit-box-shadow: 0px 10px 15px 0px rgba(199,199,199,1);
-  -moz-box-shadow: 0px 10px 15px 0px rgba(199,199,199,1);
+  box-shadow: 0px 10px 15px 0px rgba(199, 199, 199, 1);
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(199, 199, 199, 1);
+  -moz-box-shadow: 0px 10px 15px 0px rgba(199, 199, 199, 1);
   transition: all 250ms ease;
 }
 
 .button-primary:hover {
-transform: translate(-1px, -1px);
+  transform: translate(-1px, -1px);
 }
 
 .button-primary:active {
-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
 }
 
 .button-secondary {
@@ -135,6 +135,10 @@ transform: translate(0px, 0px);
   text-decoration: underline;
 }
 
-
-.attribution {font-size: 11px; text-align: center;}
-.attribution a{ color: hsl(228, 45%, 44%) }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -2,6 +2,8 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). This is my first challenge and my first proyect so I'll read all of the comments.
 
+Many of the text in here was writen in spanish. 
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -26,83 +28,69 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
+![](./ss.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/jhernar/Order-Summary)
+- Live Site URL: [GitHub Pages](https://jhernar.github.io/Order-Summary/)
 
 ## My process
-
+I made it with repl.it editor, at first It was hard because I can't dominate at all the syntaxis of css and the elements.
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Aprendi a como estructurar el proyecto, que por si mismo es demasiado sencillo para muchos pero para mi que estoy entrando en este proceso si se me complico. Aprendí sobre el flexbox y el grid y sobre las variables en CSS
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+ <main class="main-container">
+      <section class="order-card">
+        <article class="order-card__img"></article>
+        <article class="order-card__info">
+          <h1 class="info__title">Order summary</h1>
+          <p class="info__paragraph">
+            You can now listen to millions of songs audiobooks, and podcasts on
+            any device anywhere you like
+          </p>
 ```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--pale-blue);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Aun y me haya tardado mucho debido a que tambien me ocupo en mi trabajo, me enfocaré más en CSS ya que es un campo extenso y tiene muchas combinaciones que se pueden hacer con los elementos
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+## Useful resources
 
-### Useful resources
+[Boxshadow generator](https://cssgenerator.org/box-shadow-css-generator.html)
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+[Replit](https://repl.it)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@jhernar](https://www.frontendmentor.io/profile/jhernar)
+- Twitter - [@_choysito](https://www.twitter.com/_choysito)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Aprendí mucho en el curso del Ingeniero Ubaldo Acosta y de los desarrolladores de mozilla
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+[Udemy del curso](https://www.udemy.com/course/universidad-desarrollo-web-moderno-html-css-javascript-html5-css3/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.ES_cc.MX&utm_term=_._ag_120062096563_._ad_512279141247_._kw__._de_c_._dm__._pl__._ti_dsa-1190286609599_._li_9073996_._pd__._&matchtype=) 
+
+[MDN Web Docs](https://developer.mozilla.org/es/)
