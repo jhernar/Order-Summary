@@ -2,51 +2,40 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order summary</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Order summary</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./styles/styles.css" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="./styles/styles.css" />
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  
-
-        <form>
-            <div class="card">
-                <img class="hero" src="./styles/images/illustration-hero.svg" alt="illustratiterminalon-hero">
-
-                <div class="grupo description">
-                    <h3>Order summary</h3>
-                    <p>
-                        You can now listen to millions of songs audiobooks, and podcasts on
-                        any device anywhere you like
-                    </p>
-                </div>
-
-                <div class="grupo summary">
-                    <img src="./styles/images/icon-music.svg" alt="icon-music">
-                    <h3>Annual Plan</h3>
-                    <p>$59.99/year</p>
-                    <a href="#">Change</a>
-                </div>
-
-                <div class="buttons">
-                    <button class="button btn-continue">
-                        Procced to payment
-                    </button>
-
-                    <button class="button btn-cancel">
-                        Cancel order
-                    </button>
-
-                </div>
-
+	<main class="main-container">
+		<section class="order-card">
+			<article class="order-card__img"></article>
+			<article class="order-card__info">
+				<h1 class="info__title">Order summary</h1>
+				<p class="info__paragraph">
+					You can now listen to millions of songs audiobooks, and podcasts on any device anywhere you like
+				</p>
+				<div class="info__summary">
+					<img src="styles/images/icon-music.svg" alt="iconmusic" class="summary__icon" />
+            <div class="summary__detail">
+              <h2>Annual Plan</h2>
+              <span>$59.99/year</span>
             </div>
-        </form>
-</body>
-
+            <a href="" class="summary__change">Change</a>
+          </div>
+                <button class="button button-primary">Procced to payment</button>
+        <button class="button button-secondary">Cancel order</button>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
